@@ -1,0 +1,29 @@
+Problem : The dictionary ADT is defined on a set of (key, value) pairs, where the keys are totally ordered
+
+
+1. AVL Tree
+2. Splay Tree
+3. Skip List
+
+Java files: AVLTree.java, SplayBST.java, SkipList.java
+Functions Implemented:
+•	Insert(k,v)
+•	Find(k)
+•	FindMin()
+•	FindMax()
+•	Remove(k)
+•	RemoveValue(v) 
+•	Size()
+•	IsEmpty()
+
+Results Comparison: 
+	AVL Tree(In Seconds)	Splay Tree(In Seconds)	Skip List(In Seconds)
+Input File 1	2.3	3	3.8
+Input File 2	2.3	3.2	3.3
+Input File 3	2.4	3.9	3
+Input File 4	2.3	3	3
+Input File 5	2.3	3	2.8
+Input File 6	2.4	3.8	3.4
+
+Conclusion:
+AVL Tree performs slightly better than Splay Tree and Skip List.

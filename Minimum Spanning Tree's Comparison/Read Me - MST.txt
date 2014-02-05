@@ -1,0 +1,27 @@
+Problem: Compare the performance of the following minimum spanning tree algorithms:
+
+1. Prim's algorithm (implementation 1 - see lecture notes)
+2. Prim's algorithm (implementation 2)
+3. Kruskal's algorithm
+
+Java files: PrimOne.java, PrimTwo.java, KruskalMST.java
+
+Results Comparison: 
+Iterations	Prim's Algo 2(Eager)	Prim's Algo 1(Lazy)	Kruskal MST
+1		6			7			6.9
+2		7			6.6			6.8	
+3		7.2			7			5.8
+4		7.3			7			7.3
+5		5.9			7.2			6.4
+6		5.5			7.1			6.3
+7		6.6			7.3			6.8
+8		6.7			6.8			6.7
+9		6.3			6.9			6.2
+10		6.5			5.4			6
+
+
+Conclusion:
+All three implementations have slight difference in their running time. Eager version of Prim’s Algorithm (Prim Implementation 2) being the best.
+
+
+Sumit Jain

@@ -1,0 +1,16 @@
+Problem: Implement the algorithm to find a maximum flow in a directed graph.
+
+Java files: MaxFlow.java
+Results Comparison: 
+File Name			Max Flow	Running Time(MilliSeconds) 
+in.p9.10.16.16			82		20
+in.p9.10.50			214		50
+in.p9.100.500			137		250
+in.p9.100.1000			488		480
+in.p9.20k.100k.100k		254		2790
+in.p9.20k.200k			286		4490
+in.p9.20k.230k			527		4990
+
+
+Sumit Jain
+

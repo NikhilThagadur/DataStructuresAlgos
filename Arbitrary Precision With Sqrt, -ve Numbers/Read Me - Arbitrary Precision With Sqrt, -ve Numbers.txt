@@ -1,0 +1,38 @@
+Problem : arbitrary precision arithmetic package- With 
+
+1. Negative numbers
+2. Division operation: quotient (/) and remainder (%)
+3. Square root (just the integer part)
+4. +, -, *, ^
+
+Java file: ArithematicPrecision2.java
+Program Steps:
+1.	Read the input expression
+2.	Convert it into Post Fix expression
+3.	While Evaluating the Post fix exp, Pop two numbers(String format) from the stack
+4.	convert the numbers into polynomial form
+5.	Store it in Link List
+6.	Apply the operation(+,-,*,^,/,r) on two link list and store the result in another link list
+7.	Store the result link list back to Stack for further Operation.
+Note: 
+•	Negative numbers always be given in (), Ex: (-6).
+•	All the Negative answers are handled.
+•	Square root of Negative number will throw syntax error.
+•	Square root expression input is ‘r()’, Ex: r(3600/10)
+
+
+Sample input:
+48-24
+24-48
+(2*3+4)*(4*3+2)
+((2*3
+2^100
+0
+
+Sample output:
+24
+-24
+140
+syntax error
+1267650600228229401496703205376
+Bye.

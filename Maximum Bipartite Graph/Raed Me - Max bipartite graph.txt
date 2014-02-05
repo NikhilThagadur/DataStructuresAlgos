@@ -1,0 +1,13 @@
+Problem: Implement the algorithm to find a maximum matching in a given bipartite graph
+
+Java files: MaxMatching.java
+Results Comparison: 
+File Name	Running Time
+matching-1k	900 mili sec
+matching-10k	2 Seconds
+matching-100k	111 Seconds
+
+NOTE: Please run using java –Xss1024M MaxMatching , to ensure that program doesn’t run out heap memory space (in case of 100 K File)
+
+
+Sumit Jain

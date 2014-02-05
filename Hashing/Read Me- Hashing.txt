@@ -1,0 +1,26 @@
+Problem: Compare the performance of the hashing algorithms
+
+
+Algorithms Implemented:
+•	Separate Chaining with 2 choice of Hashing
+•	Double Hashing
+•	Cuckoo Hashing with 2 Hash Tables
+•	Cuckoo Hashing with 3 Hash Tables
+
+Files Included:DoubleHash.java, SeparateChaining2Choice.java, CuckooHash2T.java, CuckooHash3T.java
+
+Results Comparison: 
+			Time in Seconds	
+		Cuckoo Hashing(3 Tables)	Cuckoo Hashing(2 Tables)	Double Hashing	Separate Chaining
+input File 1	0.8				0.5				0.8			1.2
+Input File 2	0.4				0.4				0.4			1.3
+Input File 3 	0.4				0.4				0.4			1.3
+Input File 4	0.8				0.4				0.4			1.1
+Input File 5	0.8				0.4				0.4			1.1
+Input File 6	0.5				0.4				0.6			1.1
+
+Conclusion:
+Cuckoo hashing with 2 tables and Double Hashing performs equally well, slightly better than Cuckoo hashing with 3 tables
+
+
+Sumit Jain
