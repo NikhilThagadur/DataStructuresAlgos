@@ -1,0 +1,13 @@
+Name : Sumit Jain
+UTD ID: sxj132730
+Problem 1: arbitrary precision arithmetic package
+Java file : ArithematicPrecision.java
+
+Program Steps:
+1.	Read the input expression
+2.	Convert it into Post Fix expression
+3.	While Evaluating the Post fix exp, Pop two numbers(String format) from the stack
+4.	convert the numbers into polynomial form
+5.	Store it in Link List
+6.	Apply the operation(+,-,*,^) on two link list and store the result in another link list
+7.	Store the result link list back to Stack for further Operation.
